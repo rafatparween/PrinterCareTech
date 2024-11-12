@@ -24,9 +24,9 @@ const Chatlink = () => {
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-900">
+    <nav className="bg-white">
       <div className="flex gap-5 items-center py-3 justify-between">
-        <ul className="flex gap-8 text-white text-[24px]">
+        <ul className="flex gap-8 text-blue-900 text-[24px] 2xl:ml-[164px] xl:ml-[223px]">
           <Link legacyBehavior href="/" passHref>
             {/* <a className="hover:text-[#3730a3] p-2 rounded">Home</a> */}
             <div className="flex items-center mr-4 xl:ml-[-60px] 2xl:ml-[2px]">
@@ -40,13 +40,13 @@ const Navbar = () => {
             
           </Link>
           <Link legacyBehavior href="/offline" passHref>
-            <a className="hover:text-[#3730a3] p-2 rounded">Printer Offline</a>
+            <a className="hover:text-gray-600 p-2 rounded">Printer Offline</a>
           </Link>
           <Link legacyBehavior href="/printer" passHref>
-            <a className="hover:text-[#3730a3] p-2 rounded">Printer Setup</a>
+            <a className="hover:text-gray-600 p-2 rounded">Printer Setup</a>
           </Link>
           <Link legacyBehavior href="/scanner" passHref>
-            <a className="hover:text-[#3730a3] p-2 rounded">Scanner Setup</a>
+            <a className="hover:text-gray-600 p-2 rounded">Scanner Setup</a>
           </Link>
           {/* <Link legacyBehavior href="/privacypolicy" passHref>
             <a className="hover:text-[#3730a3] p-2 rounded">Privacy Policy</a>

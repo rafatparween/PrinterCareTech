@@ -12,15 +12,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/privacyPolicy/page": [
+    "/services/Pages/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/privacyPolicy/page.js"
-    ],
-    "/Disclaimer/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Disclaimer/page.js"
+      "static/chunks/app/services/Pages/page.js"
     ]
   }
 }

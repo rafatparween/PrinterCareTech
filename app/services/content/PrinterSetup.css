@@ -11,7 +11,8 @@ div {
 }
 
 .printer-setup {
-    background-color: rgba(28, 141, 206, 0.93);
+    /* background-color: rgba(28, 141, 206, 0.93); */
+    background-color: rgb(30, 58, 138);
     color: #fff;
     display: flex;
     align-items: center;
